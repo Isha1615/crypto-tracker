@@ -4,7 +4,7 @@ import CoinPage from './pages/Coin';
 import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 import Compare from './pages/Compare';
-import Watchlist from './pages/Watchlist';
+// import Watchlist from './pages/Watchlist';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
@@ -65,7 +65,7 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/coin/:id" element={<CoinPage />} />
             <Route path="/compare" element={<Compare />} />
-            <Route path="/watchlist" element={<Watchlist />} />
+            {/* <Route path="/watchlist" element={<Watchlist />} /> */}
           </Routes>
         </BrowserRouter>
         </ThemeProvider>
